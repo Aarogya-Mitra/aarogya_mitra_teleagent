@@ -17,26 +17,33 @@ Integromat)—no custom server is required.
 
 
 #  Creating the Agent on Vapi – Step by Step
+1. Open the Dashboard
+2. Go to Assistant -> click on create Assitant.
+3. Select the model and message.
+4. Type the System Prompt.
+5. Select Voice provider and voice as per location.
+6. Go to Analysis Section and give the prompt for Summary so as to get the conversational summary.
 
+Assistant is ready!
+Calling-
+1. Go to Phone Number
+2. Immport Twilio Number , SOD , Auth Token and label
+3. Select the inbound and outbound call options.
+4. Go to make.com
+5. Create a Scenario and then select the webhook , copy url
+6. In vapi select the advance tab and in messaging paste the url for the webhook integration.
+7. Now in make create a connection from webhook to a another node of firestore
+8. Add the client ID and Secret key obtained from google console outh2.0 for storing the summary to the firestore
+9. Add the relevant details how do you want the summary to be stored.
+10. Start the webhook.
+    
+# LICENCE
+ This project is licensed under the MIT License – see 
+LICENSE for detail
 
+# 🙏 Acknowledgements
+Vapi – for their no-code voice AI platform
+Make.com – for their workflow automation engine
+OpenAI GPT-4o – voice intelligence
+“Bridging the healthcare divide for all—no smartphone required.” — Arogya Mitra Tea
 
-
-
-
-# go to vapi.com
-
-# create a assistant by selecting the type of agent you want 
-
-# after then give the prompt for agnet 
-
-# choose voice and transcriber
-
-# add twilio no.
-
-# add to outbond call
-
-# use cmake for webhooks
-
-# add firestore
-
-# submit the summary
